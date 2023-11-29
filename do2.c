@@ -56,8 +56,10 @@ void main()
         {
             printf(" YOYR ANTER INVALID INPUT \n");
             printf(" ANTER VALIDE INPUTE \n");
-            printf(" ANTER 0 FOR EXIT ");
         }
         }
-    } while (option != 0);
+        printf(" \nANTER 0 FOR CONTINUE  ");
+        scanf(" %d", &option);
+
+    } while (option == 0);
 }

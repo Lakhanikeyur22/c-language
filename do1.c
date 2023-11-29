@@ -48,12 +48,11 @@ void main()
         }
         else
         {
-            printf("====== envelid input  ... anter 1 to 5 ==========");
+            printf("====== envelid input  ... anter 1 to 5 ==========\n");
         }
-        printf(" \n----for exit entre 0 ----\n");
-        printf (">>>>>continue your option press anter <<<<<");
+        printf (">>>>>continue your option press 0 <<<<<");
         scanf("%d",&option);
         
 
-    } while (option != 0);
+    } while (option == 0);
 }
