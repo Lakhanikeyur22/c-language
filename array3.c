@@ -2,7 +2,7 @@
 #include <stdio.h>
 void main()
 {
-    int player[11], i, totel;
+    int player[11], i, totel = 0;
     // player2, player3, player4, player5, player6, player7, player8, player9, player10, player11, totel;
     for (i = 0; i < 11; i++)
     {
@@ -12,12 +12,10 @@ void main()
     for (i = 0; i < 11; i++)
     {
         printf(" run of player %d >> %d\n", i + 1, player[i]);
+        totel = totel + player[i];
     }
-    for (i = 0; i < 11; i++)
-    {
-        totel = player[i] * 11;
-    }
-    printf(" totel team score is %d", totel);
+
+    printf(" totel is %d ", totel);
     // printf("anetr the score player 1 ");
     // scanf("%d", &player[1]);
     // printf("anetr the score player 2 ");
@@ -53,6 +51,15 @@ void main()
     // printf(" run of player 10 %d\n", player[10]);
     // printf(" run of player 11 %d\n", player[11]);
 
-    //         totel = player[1] + player[2] + player[3] + player[4] + player[5] + player[6] + player[7] + player[8] + player[9] + player[10] + player[11];
-    // printf(" totel score of team is %d ", totel);
+    // totel = totel + player[0];
+    // totel = totel + player[1];
+    // totel = totel + player[2];
+    // totel = totel + player[3];
+    // totel = totel + player[4];
+    // totel = totel + player[5];
+    // totel = totel + player[6];
+    // totel = totel + player[7];
+    // totel = totel + player[8];
+    // totel = totel + player[9];
+    // totel = totel + player[10];
 }
