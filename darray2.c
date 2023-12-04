@@ -14,6 +14,46 @@ void main()
         }
     }
 
+    printf(" ANRER MARKES STUDENT 1 : \n");
+    for (i = 0; i < 4; i++)
+    {
+        printf("sub 1 %d \n", marks[0][i]);
+    }
+    printf(" ANTER MARKES STUDENT 2 : \n");
+    for (i = 0; i < 4; i++)
+    {
+        printf("sub 1 %d \n", marks[1][i]);
+    }
+    
+    for (i = 0; i < 4; i++)
+    {
+        totel = totel + marks[0][i];
+    }
+
+    for (i = 0; i < 4; i++)
+    {
+        totel1 = totel1 + marks[1][i];
+    }
+  
+    printf(" totel marks of student 1 : %d\n", totel);
+    printf(" totel markes of student 2 : %d\n", totel1);
+
+    if (totel > totel1)
+    {
+        printf(" student 1 mark is heighst ");
+    }
+
+    else
+    {
+        if (totel < totel1)
+        {
+            printf(" student 2 mark is height ");
+        }
+        else
+        {
+            printf(" both students marks is same ");
+        }
+    }
     // step 1 : marks[0][0] = 50;
     //  marks[0][1] = 60;
     //  marks[0][2] = 70;
@@ -55,59 +95,22 @@ void main()
     //      printf(" ANTER MARKS sub %d :", i + 1);
     //      scanf(" %d", &marks[1][i]);
     //  }
-    printf(" ANRER MARKES STUDENT 1 : \n");
-    for (i = 0; i < 4; i++)
-    {
-        printf("sub 1 %d \n", marks[0][i]);
-    }
     // printf("sub 1 %d \n", marks[0][0]);
     // printf("sub 2 %d \n", marks[0][1]);
     // printf("sub 3 %d \n", marks[0][2]);
     // printf("sub 4 %d \n", marks[0][3]);
-    for (i = 0; i < 4; i++)
-    {
-        totel = totel + marks[0][i];
-    }
     // totel = totel + marks[0][0];
     // totel = totel + marks[0][1];
     // totel = totel + marks[0][2];
     // totel = totel + marks[0][3];
-    printf(" totel marks of student 1 : %d\n", totel);
 
-    printf(" ANTER MARKES STUDENT 2 : \n");
-    for (i = 0; i < 4; i++)
-    {
-        printf("sub 1 %d \n", marks[1][i]);
-    }
     // printf("sub 1 %d \n", marks[1][0]);
     // printf("sub 2 %d \n", marks[1][1]);
     // printf("sub 3 %d \n", marks[1][2]);
     // printf("sub 4 %d \n", marks[1][3]);
 
-    for (i = 0; i < 4; i++)
-    {
-        totel1 = totel1 + marks[1][i];
-    }
     // totel1 = totel1 + marks[1][0];
     // totel1 = totel1 + marks[1][1];
     // totel1 = totel1 + marks[1][2];
     // totel1 = totel1 + marks[1][3];
-    printf(" totel markes of student 2 : %d\n", totel1);
-
-    if (totel > totel1)
-    {
-        printf(" student 1 mark is heighst ");
-    }
-
-    else
-    {
-        if (totel < totel1)
-        {
-            printf(" student 2 mark is height ");
-        }
-        else
-        {
-            printf(" both students marks is same ");
-        }
-    }
 }
