@@ -2,39 +2,40 @@
 #include <stdio.h>
 void main()
 {
-    int marks['a']['b'], a, b, i, j, totel[5], k;
-    float avrage[5], max;
+    int stu, sub;
+    int marks[stu][sub], i, j, totel[stu], k;
+    float avrage[stu], max;
 
     printf(" anter number of student : ");
-    scanf("%d", &a);
+    scanf("%d", &stu);
     printf(" anter number of subject : ");
-    scanf("%d", &b);
-    for (j = 0; j < a; j++)
+    scanf("%d", &sub);
+    for (j = 0; j < stu; j++)
     {
         printf(" ==== ANRE SUB MARKS OF STUDENT %d === \n", j + 1);
-        for (i = 0; i < b; i++)
+        for (i = 0; i < sub; i++)
         {
             printf(" ANTER MARKS sub %d ", i + 1);
             scanf(" %d", &marks[j][i]);
         }
     }
 
-    for (j = 0; j < a; j++)
+    for (j = 0; j < stu; j++)
     {
         totel[j] = 0;
         printf(" \n MARKES of STUDENT %d : \n", j + 1);
-        for (i = 0; i < b; i++)
+        for (i = 0; i < sub; i++)
         {
             printf("SUBJECT  %d %d \n", i + 1, marks[j][i]);
             totel[j] = totel[j] + marks[j][i];
         }
         printf("totel marks of student %d %d \n", j + 1, totel[j]);
-        avrage[j] = totel[j] / b;
+        avrage[j] = totel[j] / sub;
         printf(" avrage is student %d %2.f \n", j + 1, avrage[j]);
     }
     k = 0;
     max = 0;
-    for (i = 0; i < a; i++)
+    for (i = 0; i < stu; i++)
     {
         if (max < avrage[i])
         {
