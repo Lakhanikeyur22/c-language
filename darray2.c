@@ -2,15 +2,16 @@
 #include <stdio.h>
 void main()
 {
-    int stu, sub;
-    int marks[stu][sub], i, j, totel[stu], k;
-    float avrage[stu], max;
-
-    printf(" anter number of student : ");
-    scanf("%d", &stu);
+    int std ,sub;
+    printf(" anter number of students : ");
+    scanf("%d",&std);
     printf(" anter number of subject : ");
-    scanf("%d", &sub);
-    for (j = 0; j < stu; j++)
+    scanf("%d",&sub);
+
+    int marks[std][sub], i, j, totel[std], k;
+    float avrage[std], max;
+
+    for (j = 0; j < std; j++)
     {
         printf(" ==== ANRE SUB MARKS OF STUDENT %d === \n", j + 1);
         for (i = 0; i < sub; i++)
@@ -20,7 +21,7 @@ void main()
         }
     }
 
-    for (j = 0; j < stu; j++)
+    for (j = 0; j < std; j++)
     {
         totel[j] = 0;
         printf(" \n MARKES of STUDENT %d : \n", j + 1);
@@ -35,7 +36,7 @@ void main()
     }
     k = 0;
     max = 0;
-    for (i = 0; i < stu; i++)
+    for (i = 0; i < std; i++)
     {
         if (max < avrage[i])
         {
