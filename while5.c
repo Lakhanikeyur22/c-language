@@ -12,11 +12,11 @@ void main()
         squre = number * number; // 4
         printf(" %d ", squre);
     }
-    // number=number+1;//
+    // number=number+1;//3
     // squre=number*number;//9
     // printf(" %d ",squre);
 
-    // number=number+1;
-    // squre=number*number;
+    // number=number+1;//4
+    // squre=number*number;//16
     // printf(" %d ",squre);
 }
