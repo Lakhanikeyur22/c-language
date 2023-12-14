@@ -19,5 +19,5 @@ void main()
     scanf("%d", &number);
 
     printf(" lakhani keyur \n");
-    sym (number, symbol);
+    sym(number, symbol);
 }

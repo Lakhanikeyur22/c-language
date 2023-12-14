@@ -12,13 +12,12 @@ void main()
     printf(" \nenter 6 for maximum > ");
     printf(" \nenter 7 for minimum <  \n");
 
+    printf(" enter value of option ");
+    scanf("%d", &option);
     printf(" anter the value of number 1 - ");
     scanf("%d", &number1);
     printf(" anter the value of number 2 - ");
     scanf("%d", &number2);
-
-    printf(" enter value of option ");
-    scanf("%d", &option);
     // printf (" enter value of option2 ");
     // scanf("%f",&option2);
 
