@@ -8,9 +8,9 @@ void main()
 {
     int i, j, k;
     k = 1;
-    i=5;
+    i = 5;
 
-    while (k <=5)
+    while (k <= 5)
     {
         j = 1;
         while (j <= i)
@@ -19,7 +19,7 @@ void main()
             j++;
         }
         j = 1;
-        while (j <=k )
+        while (j <= k)
         {
             printf("%d ", j);
             j++;
