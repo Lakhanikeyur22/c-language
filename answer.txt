@@ -1,0 +1,68 @@
+1]What is variable 
+ANS = variable is use to store spesific task store .
+
+
+2]What area diffrent type of datatypes 
+ANS = three type > 1.integer(int) , 2.float , 3.Char.
+
+3]How much space does integer use ?
+ANS = 4.
+
+4]How much space does float use ?
+ANS = 4.
+
+5]How much space does Char use ?
+ANS = 1.
+
+6]What are decision making statement explain all types with example 
+ANS = three type >>
+1 >> if 
+2 >> if else
+3 >> switch case
+
+
+7]What is else if ladder explain with programe 
+ANS =
+if( )
+{
+  code......
+}
+else if( )
+{
+    code........
+}
+  
+
+8]What is loop
+ANS =
+when code repit and repit that store spesific task.
+that call loop.
+
+9]Give example of Do while loop
+ANS  =
+do
+{
+    code.....
+    code.....
+
+}while(condition);
+
+
+10]What is function 
+ANS =
+function if a one type of programe code
+
+11]What is UDF 
+ANS =
+user difine function
+user potana work ma banave che.
+
+12]Explain 2 types of array 
+ANS =
+1 >> number[]  SINGLE DIM ARRAY.
+2 >> STUDENT[][] MULTI DIM ARRAY
+
+13]What is memeber variable
+
+
+14]create a structure for teacher in include name,age,number .
